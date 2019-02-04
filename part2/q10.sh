@@ -1,1 +1,0 @@
-wc hightemp.txt

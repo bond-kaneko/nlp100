@@ -7,7 +7,6 @@
 """
 
 if __name__ == "__main__":
-    row_count = 0
     with open('./hightemp.txt') as f:
         lines = f.readlines()
 

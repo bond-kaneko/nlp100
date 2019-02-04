@@ -11,5 +11,5 @@ if __name__ == "__main__":
 
     writeLines = [line.replace('\t', ' ') for line in lines]
 
-    with open('./q11.txt', 'w') as f:
+    with open('./q11/q11.txt', 'w') as f:
         f.writelines(writeLines)

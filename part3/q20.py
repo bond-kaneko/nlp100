@@ -9,7 +9,7 @@ Wikipedia記事のJSONファイルを読み込み，「イギリス」に関す�
 
 import json
 
-def load_json_dict(filename):
+def load_json_dict(filename = 'jawiki-country.json'):
     with open(filename) as f:
         articles_str = f.readlines()
 
